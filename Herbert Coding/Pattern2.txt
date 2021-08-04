@@ -1,0 +1,5 @@
+f(A):sf(A-1)
+b(L,S):f(L)rb(L,S-1)
+a(L,N):b(L,4)la(L,N-1)
+c(L):a(L,4)c(L-2)
+c(12)
