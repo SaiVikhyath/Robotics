@@ -19,7 +19,7 @@
 4. This can be achieved by using several different algorithms. One of the most common of which is the following.</br>
 	_**a. Move forward and towards the wall when the wall is not detected.**_</br>
 	_**b. Move forward and away from the wall when the wall is detected.**_</br>
-5. In our case, since the sensor is mounted facing the right, the algorithm that we will use is as follows.
+5. In our case, since the sensor is mounted facing the right, the algorithm that we will use is as follows.</br>
 	_**a. Use the right-forward motion when the wall is not detected.**_</br>
 	_**b. Use the left-forward motion when the wall is detected.**_</br>
 
