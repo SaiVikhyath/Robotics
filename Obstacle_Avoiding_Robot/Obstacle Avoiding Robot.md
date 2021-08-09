@@ -14,7 +14,7 @@
 2. Connect the GND of sensor to GND of Ardubricks, Output of the sensor to O0 pin of the Ardubricks, 5V of sensor to 5V of Ardubricks respectively. All connections to O0 of the Ardubricks using Female to Female wires.</br>
 </br></br>
 ## Obstacle avoiding algorithm:</br>
-1. The obstacle avoider robot configuration is generally used in robots such as computer operated cars, or in vaccume cleaners.</br>
+1. The obstacle avoider robot configuration is generally used in robots such as computer operated cars, or in vacuum cleaners.</br>
 2. The requirement of the algorithm is to ensure that the robot does not hit the obstacle. So when the robot does not detect and obstacle it is necessary for the robot to be moving.</br>
 3. When the robot detects an obstacle, it can do 1 of 2 things.</br>
 	_**1. Stop it's motion completely.**_</br>
