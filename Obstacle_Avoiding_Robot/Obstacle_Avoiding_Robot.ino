@@ -105,11 +105,9 @@ void loop()
   {
     reverse();
     delay(1000);
-    stop();
     delay(500);
-    left();
+    right();
     delay(1000);
-    stop();
     delay(500);
   }
 }
