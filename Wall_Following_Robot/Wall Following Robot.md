@@ -1,13 +1,12 @@
 # WALL FOLLOWING ROBOT
-</br></br>
 ## Requirements:</br>
-	* _**Chassis with motors and wheels attached.**_</br>
-	* _**Boltduino.**_</br>
-	* _**Ardubricks motor driver board.**_</br>
-	* _**Proximity sensor.**_</br>
-	* _**Three Female to Female wires.**_</br>
-	* _**DC power supply**_</br>
-	* _**Micro USB Cable**_</br>
+* _**Chassis with motors and wheels attached.**_</br>
+* _**Boltduino.**_</br>
+* _**Ardubricks motor driver board.**_</br>
+* _**Proximity sensor.**_</br>
+* _**Three Female to Female wires.**_</br>
+* _**DC power supply**_</br>
+* _**Micro USB Cable**_</br>
 </br></br>
 ## Assembly of components:</br>
 1. Stick the sensor to chassis, at the front of the chassis making sure that the sensor is facing the right side of the chassis, and the pins of the sensor are pointing to the left of the chassis.</br>
@@ -20,10 +19,10 @@
 4. This can be achieved by using several different algorithms. One of the most common of which is the following.</br>
 	_**a. Move forward and towards the wall when the wall is not detected.**_</br>
 	_**b. Move forward and away from the wall when the wall is detected.**_</br>
-4. In our case, since the sensor is mounted facing the right, the algorithm that we will use is as follows.
+5. In our case, since the sensor is mounted facing the right, the algorithm that we will use is as follows.
 	_**a. Use the right-forward motion when the wall is not detected.**_</br>
 	_**b. Use the left-forward motion when the wall is detected.**_</br>
 
 ## Algorithm:</br>
-	_**1. Use the right-forward motion when the wall is not detected.**_</br>
-	_**2. Use the left-forward motion when the wall is detected.**_</br>
+_**1. Use the right-forward motion when the wall is not detected.**_</br>
+_**2. Use the left-forward motion when the wall is detected.**_</br>

@@ -1,13 +1,12 @@
 # OBSTACLE AVOIDING ROBOT
-</br></br>
 ## Requirements:</br>
-	* _**Chassis with motors and wheels attached.**_</br>
-	* _**Boltduino.**_</br>
-	* _**Ardubricks motor driver board.**_</br>
-	* _**Proximity sensor.**_</br>
-	* _**Three Female to Female wires.**_</br>
-	* _**DC power supply**_</br>
-	* _**Micro USB Cable**_</br>
+* _**Chassis with motors and wheels attached.**_</br>
+* _**Boltduino.**_</br>
+* _**Ardubricks motor driver board.**_</br>
+* _**Proximity sensor.**_</br>
+* _**Three Female to Female wires.**_</br>
+* _**DC power supply**_</br>
+* _**Micro USB Cable**_</br>
 </br></br>
 ## Assembly of components:</br>
 1. Stick the proximity sensor to the chassis, at the front of the chassis making sure that the sensor is facing the front of the chassis.</br>
@@ -24,6 +23,6 @@
 6. The better algorithm is where the robot moves in reverse for some time, and then takes a turn. This way, it can avoid hitting the walls of a corner.
 
 ## Algorithm:</br>
-	_**1. Check if an obstacle is present.**_</br>
-	_**2. If no obstacle is present, move forward, and then repeat from step 1.**_</br>
-	_**3. If an obstacle is present, first move in reverse for some time, then take a left turn and then repeat from step 1**_</br>
+_**1. Check if an obstacle is present.**_</br>
+_**2. If no obstacle is present, move forward, and then repeat from step 1.**_</br>
+_**3. If an obstacle is present, first move in reverse for some time, then take a left turn and then repeat from step 1**_</br>
