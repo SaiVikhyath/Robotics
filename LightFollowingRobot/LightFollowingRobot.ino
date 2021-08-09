@@ -90,13 +90,21 @@ void stop()
 void setup()
 {
   // put your setup code here, to run once:
-  pinMode(11, INPUT);
+  pinMode(A0, INPUT);
+  pinMode(A1, INPUT);
   init_motors();
 }
 void loop()
 {
   // put your main code here, to run repeatedly:
-  if(digitalRead(11)==HIGH)
+  int left_sensor, right_sensor;
+  left_sensor = analogRead(A0);
+  right_sensor = analogRead(A1);
+  if (left_sensor == right_sensor)
+  {
+    stop();
+  }
+  else if (left_sensor > right_sensor)
   {
     left_forward();
   }
