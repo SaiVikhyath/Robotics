@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            .button {
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+
+            .gBtn {background-color: #9AFF8B;} /* Green */
+            .rBtn {background-color: #ED6476;} /* Red */
+        </style>
+        <title>LED CONTROL</title>
+        <script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+        <script type="text/javascript">setKey('{{ApiKey}}','{{Name}}');</script>
+    </head>
+    <body bgcolor="#9DB5E8">
+        <center>
+            <h3 style="color=White">LED SWITCH</h3><br>
+            <button onclick='digitalWrite("0", "HIGH");' class="button gBtn">On</button>
+            <button onclick='digitalWrite("0", "LOW");' class="button rBtn">Off</button>
+        </center>
+    </body>
+</html>
